@@ -77,7 +77,6 @@ function saveInLS(todo) {
     }
     todos.push(todo);
     localStorage.setItem("todos" , JSON.stringify(todos));
-    // localStorage.getItem("todos");
 }
 
 function removeFromLS(todo) {
